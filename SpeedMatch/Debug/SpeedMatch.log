@@ -1,0 +1,52 @@
+﻿生成启动时间为 2016/5/26 22:45:13。
+     1>项目“D:\study\graphics\SpeedMatch\SpeedMatch\SpeedMatch.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\vs2013\VC\bin\CL.exe /c /I"C:\Users\lenovo\Desktop\ogldev-source\Include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ObjLoader.cpp Objcar.cpp main.cpp
+         ObjLoader.cpp
+     1>d:\study\graphics\speedmatch\speedmatch\objloader.cpp(515): warning C4305: “=”: 从“double”到“GLfloat”截断
+     1>d:\study\graphics\speedmatch\speedmatch\objloader.cpp(516): warning C4305: “=”: 从“double”到“GLfloat”截断
+     1>d:\study\graphics\speedmatch\speedmatch\objloader.cpp(517): warning C4305: “=”: 从“double”到“GLfloat”截断
+     1>d:\study\graphics\speedmatch\speedmatch\objloader.cpp(519): warning C4305: “=”: 从“double”到“GLfloat”截断
+     1>d:\study\graphics\speedmatch\speedmatch\objloader.cpp(520): warning C4305: “=”: 从“double”到“GLfloat”截断
+     1>d:\study\graphics\speedmatch\speedmatch\objloader.cpp(521): warning C4305: “=”: 从“double”到“GLfloat”截断
+         正在生成代码...
+         正在编译...
+         main.cpp
+     1>d:\study\graphics\speedmatch\speedmatch\main.cpp(30): warning C4305: “初始化”: 从“double”到“GLfloat”截断
+     1>d:\study\graphics\speedmatch\speedmatch\main.cpp(35): warning C4305: “参数”: 从“double”到“GLclampf”截断
+         Objcar.cpp
+         正在生成代码...
+       Link:
+         G:\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\study\graphics\SpeedMatch\Debug\SpeedMatch.exe" /INCREMENTAL /NOLOGO GLAUX.LIB kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\study\graphics\SpeedMatch\Debug\SpeedMatch.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\study\graphics\SpeedMatch\Debug\SpeedMatch.lib" /MACHINE:X86 Debug\main.obj
+         Debug\Objcar.obj
+         Debug\ObjLoader.obj
+         Debug\Skybox.obj
+         freeglut_static.lib(freeglut_init.obj) : 找到 MSIL .netmodule 或使用 /GL 编译的模块；正在使用 /LTCG 重新启动链接；将 /LTCG 添加到链接命令行以改进链接器性能
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/LTCG”规范)
+     1>main.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+         已完成代码的生成
+     1>freeglut_static.lib(freeglut_init.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_init.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_main.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_main.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_display.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_display.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_callbacks.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_callbacks.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_window.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_window.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_structure.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_structure.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_input_devices.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_input_devices.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_gamemode.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_gamemode.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_joystick.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_joystick.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_cursor.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_cursor.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_menu.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_menu.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_state.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_state.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_spaceball.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_spaceball.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_font.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_font.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_font_data.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_font_data.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_stroke_roman.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_stroke_roman.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freeglut_static.lib(freeglut_stroke_mono_roman.obj) : warning LNK4099: 未找到 PDB“vc110.pdb”(使用“freeglut_static.lib(freeglut_stroke_mono_roman.obj)”或在“D:\study\graphics\SpeedMatch\Debug\vc110.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         SpeedMatch.vcxproj -> D:\study\graphics\SpeedMatch\Debug\SpeedMatch.exe
+     1>已完成生成项目“D:\study\graphics\SpeedMatch\SpeedMatch\SpeedMatch.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.74
